@@ -25,11 +25,11 @@
     </loadAfter>
     <description>This mod makes food filters such as "Allow vegetarian food" visible in storage (such as zones and shelves).
 
-For whatever strange reason they are explicitly hidden by the game (a bug possibly, already reported). This allows having separate cooking bill for different diets with "Do Until X".
+For whatever strange reason they are explicitly hidden by the game (a bug possibly, already reported). This allows having separate cooking bills for different diets with "Do Until X".
 
 If for example most of your colony eats without limitations, but there is one that is vegetarian, you can ensure there is always vegetarian food this way:
-* Set up normal cooking bills.
 * Set a zone that has "Allow vegetarian food" enabled and all other types disabled (note that the base game does not allow shelves in recipes, the "Take It To Storage!" mod changes that, but as of 4h Dec 2022 it is buggy).
+* Set up normal cooking bills.
 * Above those, set up a cooking bill with "Do Until X" for vegetarian foods. Change the "Look everywhere" to use the zone. Also use the zone for "Take to".
 
 The game also does not provide a filter for fungus, for that see "Fungus Diet Filter" mod.
